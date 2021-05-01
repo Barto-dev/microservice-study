@@ -1,0 +1,24 @@
+{
+  "name": "moderation",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Barto <illya1004work@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/moderation.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+   "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
