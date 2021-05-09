@@ -1,0 +1,11 @@
+apiVersion: v1
+# используем тип объекта Pod из v1
+kind: Pod
+metadata:
+  # pod name
+  name: posts
+spec:
+  containers:
+    - name: posts
+      # указываем версию для использования образа на локальной машине
+      image: bartodev/posts:0.0.1
